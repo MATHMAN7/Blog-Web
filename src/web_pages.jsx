@@ -1,11 +1,14 @@
-function Web_pages(){
+import App from './App'
+
+
+function Web_pages({onSelectPage}){
     return(
         <div className="panel">
 
-            <button>Home</button>
-            <button>About Me</button>
-            <button>Projects</button>
-            <button>Contact Me</button>
+            <button onClick={() => onSelectPage("home")}>Home</button>
+            <button onClick={() => onSelectPage("about")}>About Me</button>
+            <button onClick={() => onSelectPage("projects")}>Projects</button>
+            <button onClick={() => onSelectPage("contact")}>Contact Me</button>
 
         </div>
     )
