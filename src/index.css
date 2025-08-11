@@ -1,7 +1,8 @@
+
+
 body{
   display: flex;
-  background: linear-gradient(90deg, #ff03ea, #ff5900);
-
+  background-image: url("sparkly_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -19,6 +20,7 @@ body{
   min-width: 700px;
   gap: 16px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  outline: none;
 }
 .panel button{
   background: lightblue;
@@ -40,4 +42,9 @@ body{
 button:focus {
   outline: 3px solid #05d66d;
   outline-offset: 2px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #8ffd34;
+  transition: box-shadow 0.3s ease, outline-offset 0.3s ease;
 }
+
+
