@@ -1,0 +1,43 @@
+body{
+  display: flex;
+  background: linear-gradient(90deg, #ff03ea, #ff5900);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.panel{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #efefef;
+  border-radius: 10px;
+  min-width: 700px;
+  gap: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.panel button{
+  background: lightblue;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 10px 16px;
+
+  border-radius: 10px;
+  border: none;
+}
+.panel button:hover{
+  background-color: cyan;
+}
+.panel button:active{
+
+  background-color: #8ffd34;
+}
+button:focus {
+  outline: 3px solid #05d66d;
+  outline-offset: 2px;
+}
