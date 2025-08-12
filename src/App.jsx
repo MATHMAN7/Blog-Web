@@ -39,7 +39,7 @@ function App() {
         <div className="App">
             <Web_pages onSelectPage={handlePageChange} />
             <div className="page-content">{content}</div>
-            <Footer />
+           <div className="footer"> <Footer /> </div>
         </div>
     );
 
