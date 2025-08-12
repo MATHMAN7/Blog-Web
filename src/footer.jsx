@@ -1,9 +1,10 @@
 import React from 'react';
+import './index.css';
 
 function Footer() {
     const year = new Date().getFullYear();
     return (
-        <footer className="text-center text-gray-500 text-sm py-4 border-t mt-8">
+        <footer className="footer">
             © {year} Loren Smart. All rights reserved.
         </footer>
     );
