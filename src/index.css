@@ -1,24 +1,28 @@
 
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+
 html, body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
   width: 100vw;
   overflow-x: hidden;
+
 }
 
-body{
+body {
   display: flex;
-  background-image: url("cost_city.jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  align-items: flex-start;
-  justify-content: center;
-
+  flex-direction: column;
+  align-items: stretch;
+  margin: 0;
+  padding: 0;
+  background-color: #02024e;
 }
 
 .footer{
@@ -29,42 +33,68 @@ body{
 
 .panel{
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
   padding: 20px;
-  background-color: #efefef;
-  border-radius: 10px;
-  min-width: 700px;
+  background-color: #ffffff;
+
+
+  width: 100%;
   gap: 16px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   outline: none;
 }
 .panel button{
-  background: lightblue;
+
+
+  background: whitesmoke;
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
-  padding: 10px 16px;
+  padding: 10px 10px;
 
-  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 0;
+
+
   border: none;
 }
 .panel button:hover{
-  background-color: cyan;
+  background-color: #85f6f6;
 }
-.panel button:active{
 
-  background-color: #8ffd34;
-}
 button:focus {
-  outline: 3px solid #05d66d;
+  outline: 3px solid #4aa3d9;
   outline-offset: 2px;
-  border-radius: 12px;
+
   box-shadow: 0 0 10px #8ffd34;
   transition: box-shadow 0.3s ease, outline-offset 0.3s ease;
 }
 /* -------------------------------- panel  ------------------------------------------------------*/
+.heroImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 
 
+.hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+.hero-con{
+  position: absolute;
+  top: 50%;               /* vertically center */
+  left: 50%;              /* horizontally center */
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 2;
+  text-align: center;
+}
 
 
 
@@ -72,8 +102,10 @@ button:focus {
 
 
 .imgprof{
-  border-radius: 50%;
+
+  border-radius: 100%;
   max-width: 200px;
+  z-index: 2;
 }
 
 .homeContainer{
@@ -95,43 +127,70 @@ button:focus {
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 1rem;
-  background-color: pink;
-  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  background-color: rgba(52, 152, 219, 0.76);
+  border-radius: 50% / 25%;
   font-style: oblique;
+  transition: background-color 0.4s ease, transform 0.3s ease;
 
 
 }
+
+.section:hover {
+  background-color: rgba(52, 152, 219, 0.8);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
 .picAndhi{
   display: flex;
   flex-direction: row;
   gap: 1rem;
   align-items: center;
-  color: whitesmoke;
+  color: #1a252f;
 }
 
 .section h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
 
 }
 
 .section p {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   line-height: 1.6;
-  color: white;
+  color: #efefef;
 
 }
-
 .intro{
-  background-color: pink;
+
+  background-color: rgb(255, 255, 255);
   border-radius: 20px;
   margin: 1rem;
   padding: 2rem;
   font-size: 2rem;
   font-style: oblique;
-  text-decoration: whitesmoke line-through;
-  text-decoration-style: wavy ;
+  z-index: 2;
+
 }
+.tagline{
+
+  background-color: rgba(173, 216, 230, 0.89);
+  padding: 1rem 2rem;
+  max-width: 100px;
+  font-size: 1rem;
+  max-height: 50px;
+  z-index: 2;
+
+}
+.pftag{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 
 
 

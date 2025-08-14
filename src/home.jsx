@@ -1,15 +1,19 @@
 import ship from './ship.jpeg';
+import hero from './cost_city.jpg';
 
 
 function Home(){
     return (
      <div className="homeContainer">
-         <h1 style={{ color: "whitesmoke" }}>Humble heart but seek the vast horizon.</h1>
+        <div className="hero">
+            <img src={hero} className="heroImg" />
+            <div className="hero-con">
 
-         <div className="picAndhi">
          <img className="imgprof" src={ship} alt="Ship" />
+         <h4 className="tagline">Humble heart but seek the vast horizon.</h4>
          <h1 className="intro">Hi, I’m Loren Smart</h1>
-         </div>
+        </div>
+        </div>
 
 
          <section className="section">

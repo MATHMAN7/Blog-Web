@@ -1,4 +1,5 @@
 import './App.css'
+import './about.css'
 import Web_pages from './web_pages'
 import Home from './home'
 import About from './about'
@@ -36,10 +37,11 @@ function App() {
 
 
     return (
+
         <div className="App">
             <Web_pages onSelectPage={handlePageChange} />
             <div className="page-content">{content}</div>
-           <div className="footer"> <Footer /> </div>
+            <div className="footer"><Footer /></div>
         </div>
     );
 

@@ -1,0 +1,43 @@
+.ship{
+    border-radius: 100%;
+}
+.name{
+    background-color: rgba(216, 173, 230, 0.85);
+    max-width: 200px;
+}
+.aboutMe{
+    margin-left: 100px;
+    max-width: 400px;
+    background-color: rgba(173, 230, 210, 0.85);
+}
+.photoANDuni{
+    display: flex;
+    flex-direction: row;
+}
+.PhotoAndName{
+    display: flex;
+    flex-direction: column;
+}
+.tirana{
+    max-height: 70px;
+    max-width: 70px;
+}
+.Stu{
+    display: flex;
+    flex-direction: row;
+}
+.Stu h1{
+    font-size: 20px;
+    background-color: rgba(0, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+}
+.Stu p{
+    background-color: rgba(0, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 10px;
+}
+.diploma_bio{
+    display: flex;
+    flex-direction: row;
+}
