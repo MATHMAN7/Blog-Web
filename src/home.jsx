@@ -1,5 +1,6 @@
 import ship from './ship.jpeg';
 import hero from './cost_city.jpg';
+import diplom from './diploma.png';
 
 
 function Home(){
@@ -8,15 +9,16 @@ function Home(){
         <div className="hero">
             <img src={hero} className="heroImg" />
             <div className="hero-con">
-
+                <h4 className="tagline">Humble heart but seek the vast horizon.</h4>
          <img className="imgprof" src={ship} alt="Ship" />
-         <h4 className="tagline">Humble heart but seek the vast horizon.</h4>
+
          <h1 className="intro">Hi, I’m Loren Smart</h1>
         </div>
         </div>
 
-
+         <img src={diplom} className="diplomImg" />
          <section className="section">
+
              <p className="pabout" >
                  Welcome to my personal space.
              </p>
