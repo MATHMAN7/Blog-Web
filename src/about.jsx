@@ -9,7 +9,7 @@ import tirana from "./tirana.png"
 import postgres from "./postgresql.png"
 import webstorm from "./webstorm.png"
 import github from "./github.png"
-import diploma from "./diploma.jpg"
+import diploma from "./diploma.png"
 
 
 
