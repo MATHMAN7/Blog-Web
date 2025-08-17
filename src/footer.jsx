@@ -8,24 +8,44 @@ function Footer() {
     return (
         <div  className="footerBox">
 
-        <footer className="footer">
-            © {year} Loren Smart. All rights reserved.
-        </footer>
+
+            <h1 className="footer_tagline">Got a project? Let’s make it happen.</h1>
+            <div className="links">
             <a
                 href="https://instagram.com/thegreatmathman"
                 target="_blank"
                 rel="noopener noreferrer">
 
-                <Instagram size={20} />
+                <Instagram size={40} />
             </a>
 
             <a href="mailto:sonycena844@gmail.com"
+               target="_blank"
+               rel="noopener noreferrer">
 
 
-            >
-                <Mail size={20} />
+                <Mail size={40} />
             </a>
+            <a
+                href="https://www.linkedin.com/in/orson-cena-961a2434b/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <Linkedin size={40} />
+            </a>
+            <a
+                href="https://github.com/MATHMAN7"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <Github size={40} />
+            </a>
+            </div>
 
+
+            <footer className="footer">
+                © {year} Loren Smart. All rights reserved.
+            </footer>
 
         </div>
     );
