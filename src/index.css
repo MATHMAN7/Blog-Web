@@ -22,7 +22,7 @@ body {
   align-items: stretch;
   margin: 0;
   padding: 0;
-  background-color: #02024e;
+  background-color: #ffffff;
 }
 
 
@@ -83,9 +83,10 @@ button:focus {
   display: inline-block;
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 500px;
   overflow: hidden;
 }
+
 .hero-con{
   position: absolute;
   top: 50%;
@@ -96,6 +97,7 @@ button:focus {
   align-items: center;
   z-index: 2;
   text-align: center;
+  animation: slideUp 1s ease-out forwards;
 }
 
 
@@ -106,8 +108,10 @@ button:focus {
 .imgprof{
 
   border-radius: 100%;
-  max-width: 200px;
+  max-width: 150px;
+  max-height: 150px;
   z-index: 2;
+  aspect-ratio: 1/1;
 }
 
 .homeContainer{
@@ -123,9 +127,8 @@ button:focus {
   margin: 1rem;
   padding: 2rem;
   font-size: 2rem;
-  font-style: oblique;
   z-index: 2;
-
+  color: black;
 }
 
 
@@ -139,7 +142,7 @@ button:focus {
   transform: translateX(-50%);
 
 
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.75);
   color: #fff;
   font-size: 1.2rem;
   font-weight: 500;
@@ -147,7 +150,7 @@ button:focus {
 
   padding: 0.5rem 1rem;
   border-radius: 999px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.66);
 
   letter-spacing: 0.5px;
   z-index: 2;
@@ -231,3 +234,15 @@ button:focus {
   align-items: center;
 }
 
+/*---------------------movements-------------------------*/
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, calc(-50% + 100px));
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
