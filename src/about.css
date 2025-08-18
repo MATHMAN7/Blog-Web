@@ -1,3 +1,15 @@
+.Head{
+    width: 100%;
+    min-height: 100px;
+    background-color: #e6e6e6;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
 .ship{
     border-radius: 100%;
 }
@@ -40,4 +52,16 @@
 .diploma_bio{
     display: flex;
     flex-direction: row;
+}
+.student{
+    display: flex;
+flex-direction: column;
+}
+.sda{
+    display: flex;
+    flex-direction: row;
+}
+
+.downloads{
+
 }

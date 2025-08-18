@@ -10,26 +10,52 @@ import postgres from "./postgresql.png"
 import webstorm from "./webstorm.png"
 import github from "./github.png"
 import diploma from "./diploma.png"
+import sda from "./sda.png"
+
+
+
 
 
 
 function About(){
 
     return (
+
         <div>
+            <div className="Head"> About Me</div>
             <div className="photoANDuni">
                 <div className="PhotoAndName">
             <img src={ship} className="ship" />
             <h1 className="name">Loren Smart</h1>
                 </div>
 
-
+            <div className="student">
+                <h1> Education & Recognition </h1>
             <div className="Stu">
+
             <img src={tirana} className="tirana" />
                 <div className="Stu2">
                 <h1>Soni Cena – Engineering of Mathematics and Computer
                     Science Student</h1>
                 <p>📅 Started: October 2023 | Expected Graduation: 2026</p>
+                </div>
+            </div>
+                <div className="sda">
+                <img src={sda} className="sda-picture" />
+                    <section className="downloads">
+                    <h1>Java Diploma (SDA Academy)</h1>
+                    <a
+                        href="assets/SDA_diploma.pdf"
+                        download="SDA_Diploma.pdf">
+                        📜 Download My SDA Diploma</a>
+                    <a
+                    href="assets/CV-Orson.pdf"
+                    download="CV-Orson.pdf">
+                           🔗 Download CV
+
+
+                    </a>
+                    </section>
                 </div>
             </div>
             </div>

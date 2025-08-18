@@ -1,6 +1,7 @@
 import hero from './cost_city.jpg';
 import soni from './osoni2.png';
 import './index.css';
+import soni2 from './ship.jpeg';
 
 
 
@@ -11,7 +12,7 @@ function Home(){
                 <img src={hero} className="heroImg" />
                 <div className="hero-con">
                     <h4 className="tagline">Humble heart but seek the vast horizon.</h4>
-                    <img className="imgprof" src={soni} alt="Ship" />
+                    <img className="imgprof" src={soni2} alt="Ship" />
 
                     <h1 className="intro">Hi, I’m Loren Smart</h1>
                 </div>
