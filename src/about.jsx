@@ -1,5 +1,5 @@
 import Home from "./home.jsx";
-//import diploma from "./Java_diploma.jpg";
+import diploma from "./Java_diploma.jpg";
 import icon from "./icon_task.png";
 import icon2 from "./check_JS.png";
 import ship from "./ship.jpeg"
@@ -8,10 +8,11 @@ import linkedin from "./linkedin-100.png"
 import tirana from "./tirana.png"
 import postgres from "./postgresql.png"
 import webstorm from "./webstorm.png"
-import github from "./github.png"
-import diploma from "./diploma.png"
+//import diploma from "./diploma.png"
 import download from "./download_icon.png"
 import sda from "./sda.png"
+import { HexGrid, Layout, Hexagon, Text } from "react-hexgrid";
+
 
 
 function About(){
@@ -22,7 +23,12 @@ function About(){
             <div className="Head">
                 <h1>About Me</h1>
             </div>
+            <div className="BIGeducation" >
+                <div className="Belinda">
 
+                <img src={diploma} className="Belinda2"></img>
+                    <p>Receiving my diploma from Deputy Prime Minister Belinda Balluku.</p>
+                </div>
             <div className="Education">
                 <div className="student_title">
                     <img
@@ -68,6 +74,13 @@ function About(){
                     >CV
                     </a>
                 </div>
+
+            </div>
+            </div>
+
+            <div className="Skills">
+
+
 
             </div>
 

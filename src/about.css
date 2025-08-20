@@ -32,3 +32,21 @@
     gap: 10px;
 align-items: center;
 }
+
+.Belinda{
+    width: 400px;
+    margin: 20px;
+}
+.BIGeducation{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.Belinda2{
+    width: 400px;
+}
+
+.HexGrid{
+    background-color: #ac1111;
+}
