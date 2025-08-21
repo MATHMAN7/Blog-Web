@@ -12,6 +12,9 @@ import webstorm from "./webstorm.png"
 import download from "./download_icon.png"
 import sda from "./sda.png"
 import { HexGrid, Layout, Hexagon, Text } from "react-hexgrid";
+import SkillsFlow from "./SkillsFlow.jsx";
+
+
 
 
 
@@ -80,7 +83,7 @@ function About(){
 
             <div className="Skills">
 
-
+           <SkillsFlow/>
 
             </div>
 
