@@ -50,3 +50,132 @@ align-items: center;
 .HexGrid{
     background-color: #ac1111;
 }
+
+
+
+
+
+.row2{
+    display: flex;
+    flex-direction: row;
+
+
+    gap: 30px;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+
+
+    gap: 30px;
+}
+.row4{
+    display: flex;
+    flex-direction: row;
+
+
+    gap: 30px;
+}
+
+.Skills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
+.languages{
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.frameworks{
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+.database{
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+.tools{
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+.IDE{
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.productivity{
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+.expertise{
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.freelance{
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+
+}
+
+.math{
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+
+}
+
+.Experiments{
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+
+.skills-box{
+
+    margin: 60px;
+
+}
+
+
+
+
+.skills-box:hover {
+    transform: scale(1.15);
+
+
+}

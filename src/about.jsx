@@ -1,18 +1,27 @@
 import Home from "./home.jsx";
-import diploma from "./Java_diploma.jpg";
-import icon from "./icon_task.png";
-import icon2 from "./check_JS.png";
-import ship from "./ship.jpeg"
-import git from "./git-144.png"
-import linkedin from "./linkedin-100.png"
-import tirana from "./tirana.png"
-import postgres from "./postgresql.png"
-import webstorm from "./webstorm.png"
-//import diploma from "./diploma.png"
-import download from "./download_icon.png"
-import sda from "./sda.png"
+
+// Images
+import diploma from "./images/Java_diploma.jpg";
+
+import icon from "./images/icon_task.png";
+import icon2 from "./images/check_JS.png";
+import ship from "./images/ship.jpeg";
+import git from "./images/git-144.png";
+import linkedin from "./images/linkedin-100.png";
+import tirana from "./images/tirana.png";
+import postgres from "./images/postgresql.png";
+import webstorm from "./images/webstorm.png";
+import sda from "./images/sda.png";
+import download from "./images/download_icon.png";
+
+// PDFs
+import CV from "./pdfs/CV-Orson.pdf";
+
+// HexGrid (no change)
 import { HexGrid, Layout, Hexagon, Text } from "react-hexgrid";
-import SkillsFlow from "./SkillsFlow.jsx";
+
+
+
 
 
 
@@ -83,7 +92,31 @@ function About(){
 
             <div className="Skills">
 
-           <SkillsFlow/>
+                <div className="sk">SKILLS</div>
+
+
+                <div className="row2">
+
+                <div className="languages skills-box">⚡ Programming Languages<br/>JavaScript, Python, C++</div>
+                    <div className="frameworks skills-box">📚 Frameworks<br/>React, Django, Node.js</div>
+                <div className="database skills-box">🗄️ Databases<br/>Postgres, MongoDB</div>
+
+                </div>
+
+                <div className="row3">
+                <div className="tools skills-box">🛠️ Tools<br/>Git, Docker, Linux</div>
+                <div className="IDE skills-box">💻 IDEs<br/>VS Code, PyCharm</div>
+                    <div className="productivity skills-box">Productivity <br/>Word,Exel</div>
+                </div>
+
+
+                <div className="row4">
+                   <div className="expertise skills-box">📈 Expertise<br/>Algorithms, Data Analysis</div>
+                    <div className="freelance skills-box">Freelance platforms <br/>Upwork</div>
+                    <div className="math skills-box"> Mathematical skills <br/>calculus</div>
+                </div>
+
+                <div className="Experiments skills-box">I have experience with <br/>pytorch</div>
 
             </div>
 

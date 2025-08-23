@@ -1,7 +1,8 @@
-import hero from './cost_city.jpg';
-import soni from './osoni2.png';
+import hero from './images/cost_city.jpg';
+import soni from './images/osoni2.png';
+import soni2 from './images/ship.jpeg';
 import './index.css';
-import soni2 from './ship.jpeg';
+
 
 
 
