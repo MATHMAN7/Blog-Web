@@ -179,3 +179,46 @@ align-items: center;
 
 
 }
+
+.sk{
+    display: flex;
+    flex-direction: column;
+
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+
+
+
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+    min-height: 200px;
+
+    align-items:flex-start;
+    justify-content: flex-start;
+
+
+
+
+}
+
+.sk h1{
+    font-size: 50px;
+    font-weight: bold;
+
+
+    background: linear-gradient(to left, #ed6905, #fff303);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sk p1{
+    background: linear-gradient(to right, #ed6905, #fff303);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+
+    font-size: 25px;
+
+    max-width: 85%;
+}
