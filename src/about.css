@@ -76,6 +76,11 @@ align-items: center;
 
     gap: 30px;
 }
+.row5{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
 
 .Skills{
     display: flex;
@@ -222,3 +227,15 @@ align-items: center;
 
     max-width: 85%;
 }
+
+
+/* ---------------------skill-card---------------------------------*/
+
+.skill-card{
+    width: 100px;
+    height: 150px;
+}
+
+
+
+/* ---------------------skill-card---------------------------------*/

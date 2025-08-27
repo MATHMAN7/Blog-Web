@@ -3,11 +3,9 @@ import Home from "./home.jsx";
 // Images
 import diploma from "./images/Java_diploma.jpg";
 
-import icon from "./images/icon_task.png";
-import icon2 from "./images/check_JS.png";
+
 import ship from "./images/ship.jpeg";
 import git from "./images/git-144.png";
-import linkedin from "./images/linkedin-100.png";
 import tirana from "./images/tirana.png";
 import postgres from "./images/postgresql.png";
 import webstorm from "./images/webstorm.png";
@@ -15,7 +13,7 @@ import sda from "./images/sda.png";
 import download from "./images/download_icon.png";
 
 // PDFs
-import CV from "./pdfs/CV-Orson.pdf";
+import CV from "./images/CV-Orson.pdf";
 
 // HexGrid (no change)
 import { HexGrid, Layout, Hexagon, Text } from "react-hexgrid";
@@ -94,7 +92,7 @@ function About(){
 
                 <div className="sk" href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
 
-                   <h1>SKILLS AND TOOLS</h1>
+                    <h1>SKILLS AND TOOLS</h1>
 
                     <p1>Here you will find Skills and Technologies i have work with most.
                         From programing languages,frameworks, IDEs i prefer to expand in skill and tools.
@@ -102,120 +100,126 @@ function About(){
 
                 </div>
 
-
                 <div className="row2">
 
                     <div className="frameworks skills-box">
-                        <h2>
-                            📚 Frameworks</h2>
-                        <p>React</p>
-                        <p>Node.js</p>
-                        <p>Django</p>
-                        <p>Spring</p>
-                        <p>PyTorch</p>
+                        <h2>Frameworks</h2>
 
-
+                        <div className="skill-card">
+                            <img src="" alt="React"/>
+                            <p>React</p>
+                        </div>
+                        <div className="skill-card">
+                            <img src="" alt="Node.js"/>
+                            <p>Node.js</p>
+                        </div>
+                        <div className="skill-card">
+                            <img src="" alt="Django"/>
+                            <p>Django</p>
+                        </div>
+                        <div className="skill-card">
+                            <img src="" alt="Spring"/>
+                            <p>Spring</p>
+                        </div>
+                        <div className="skill-card">
+                            <img src="" alt="PyTorch"/>
+                            <p>PyTorch</p>
+                        </div>
                     </div>
-
-
 
                     <div className="languages skills-box">
-                        <h2>⚡ Programming Languages </h2>
-                        <p>JavaScript</p>
-                        <p>C++</p>
-                        <p>Python</p>
-                        <p>Java</p>
-
-                        </div>
-                    <div className="expertise skills-box">
-                        <h2>📈 Expertise</h2>
-
-                        <p>Full-Stack Development</p>
-                        <p>Web Development </p>
-                        <p>Web Applications</p>
-                        <p>API Integration</p>
-
-                        <p>Desktop Applications</p>
-                        <p>GUI </p>
-
-
+                        <h2>⚡ Programming Languages</h2>
+                        <div className="skill-card"><img src="" alt="JavaScript"/>  <p>JavaScript</p></div>
+                        <div className="skill-card"><img src="" alt="C++"/>         <p>C++</p></div>
+                        <div className="skill-card"><img src="" alt="Python"/>      <p>Python</p></div>
+                        <div className="skill-card"><img src="" alt="Java"/>        <p>Java</p></div>
                     </div>
 
 
+
                 </div>
+
+
 
                 <div className="row3">
-                    <div className="tools skills-box">
-                        <h2>🛠️ Tools</h2>
 
-                        <p>Git</p>
-                        <p>GitHub</p>
 
+                    <div className="expertise skills-box">
+                        <h2>📈 Expertise</h2>
+                        <div className="skill-card">    <p>Full-Stack Development</p></div>
+                        <div className="skill-card">    <p>Web Development</p></div>
+                        <div className="skill-card">    <p>Web Applications</p></div>
+                        <div className="skill-card">    <p>API Integration</p></div>
+                        <div className="skill-card">    <p>Desktop Applications</p></div>
+                        <div className="skill-card">    <p>GUI</p></div>
                     </div>
+
+
+
 
                     <div className="freelance skills-box">
-                        <h2>Freelance Side Gigs</h2>
-                        <p>Web Development</p>
-                        <p>Web Application Development</p>
-                        <p>Python Automation</p>
-                        <p>Web Scraping</p>
-                        <p>Software Testing</p>
-                        <p>Bug Fixes & Debugging</p>
-                        <p>General Support</p>
-
-                    </div>
-                    <div className="database skills-box">
-                        <h2>
-                            🗄️ Databases</h2>
-
-                        <p>PostgreSQL</p>
+                        <div className="skill-card"><p>Web Development</p></div>
+                        <div className="skill-card"><p>Web Application Development</p></div>
+                        <div className="skill-card"><p>Python Automation</p></div>
+                        <div className="skill-card"><p>Web Scraping</p></div>
+                        <div className="skill-card"><p>Software Testing</p></div>
+                        <div className="skill-card"><p>Bug Fixes & Debugging</p></div>
+                        <div className="skill-card"><p>General Support</p></div>
 
 
-                    </div>
                 </div>
 
 
-                <div className="row4">
-                    <div className="productivity skills-box">
-                        <h2>Productivity</h2>
 
-                        <p>MS Word</p>
-                        <p>MS Excel</p>
+
+
+                </div>
+                <div className="row4">
+                    <div className="tools skills-box">
+                        <h2>🛠️ Tools</h2>
+                        <div className="skill-card"><img src="" alt="Git"/><p>Git</p></div>
+                        <div className="skill-card">   <p>GitHub</p></div>
                     </div>
+                    <div className="database skills-box">
+                        <h2>🗄️ Databases</h2>
+                        <div className="skill-card"><img src="" alt="PostgreSQL"/><p>PostgreSQL</p></div>
+
+                    </div>
+
+                </div>
+                <div className="row5">
 
 
                     <div className="math skills-box">
-                        <h2>
-                        Mathematical skills</h2>
-
-                        <p>Linear Algebra</p>
-                        <p>Probability and Statistics</p>
-                        <p>Optimization</p>
-                        <p>Calculus (Integral & Differential)</p>
-                        <p>Vector Calculus</p>
-                        <p>Analytical Geometry</p>
-                        <p>Real and Complex Analysis</p>
-
-
-
+                        <h2>Mathematical Skills</h2>
+                        <div className="skill-card"><p>Linear Algebra</p></div>
+                        <div className="skill-card"><p>Probability and Statistics</p></div>
+                        <div className="skill-card"><p>Optimization</p></div>
+                        <div className="skill-card"><p>Calculus (Integral & Differential)</p></div>
+                        <div className="skill-card"><p>Vector Calculus</p></div>
+                        <div className="skill-card"><p>Analytical Geometry</p></div>
+                        <div className="skill-card"><p>Real and Complex Analysis</p></div>
                     </div>
+
                     <div className="IDE skills-box">
-                        <h2>💻 IDEs</h2>
-                        <p>PyCharm</p>
-                        <p>VS Code</p>
-                        <p>IntelliJ IDEA</p>
-                        <p>CLion</p>
-                        <p>DataGrip</p>
-                        <p>WebStorm</p>
-
+                        <div className="skill-card"><img src="" alt="PyCharm"/><p>PyCharm</p></div>
+                        <div className="skill-card"><p>VS Code</p></div>
+                        <div className="skill-card"><p>IntelliJ IDEA</p></div>
+                        <div className="skill-card"><p>CLion</p></div>
+                        <div className="skill-card"><p>DataGrip</p></div>
+                        <div className="skill-card"><img src="" alt="WebStorm"/><p>WebStorm</p></div>
                     </div>
-
-
+                </div>
+                <div className="row6">
+                    <div className="productivity skills-box">
+                        <h2>Productivity</h2>
+                        <div className="skill-card"><p>MS Word</p></div>
+                        <div className="skill-card"><p>MS Excel</p></div>
                     </div>
-
-
+                </div>
 
             </div>
+
 
         </div>
     );

@@ -1,0 +1,264 @@
+[33mcommit 96cbda5db34d8057d6e100ea54cea678173efdf8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Mon Aug 25 13:33:30 2025 +0200
+
+    Remove sensitive files from latest commit
+
+[33mcommit 722e3f0d15e7578a2e79c58b3c2279b70b8d66df[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Sun Aug 24 23:11:03 2025 +0200
+
+    Fixed bugs and cleaned up code
+
+ package-lock.json |  10 [32m+++[m
+ package.json      |   1 [32m+[m
+ src/about.css     |  43 [32m++++++++++++[m
+ src/about.jsx     | 195 [32m++++++++++++++++++++++++++++++++++++++++[m[31m--------------[m
+ 4 files changed, 200 insertions(+), 49 deletions(-)
+
+[33mcommit 4e8dcab2957deef9fa95a45254cd449bbeda949a[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Sat Aug 23 23:40:13 2025 +0200
+
+    Organized photos & PDFs, removed unused library, updated skills section
+
+ src/SkillsFlow.jsx         |  62 [31m----------------------[m
+ src/about.css              | 129 [32m+++++++++++++++++++++++++++++++++++++++++++++[m
+ src/about.jsx              |  61 [32m++++++++++++++++[m[31m-----[m
+ src/home.jsx               |   7 [32m+[m[31m--[m
+ src/{ => images}/ship.jpeg | Bin
+ src/old                    |  62 [31m----------------------[m
+ 6 files changed, 180 insertions(+), 141 deletions(-)
+
+[33mcommit 3977ef51c45e8b8c717d3214e95d89accc6c17e4[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Fri Aug 22 22:46:37 2025 +0200
+
+    Worked on node interactions in personal website. Tough emotional day, but still pushed through and coded.
+
+ src/SkillsFlow.jsx | 119 [32m++++++++++++++++++[m[31m-----------------------------------[m
+ src/old            |  62 [32m++++++++++++++++++++++++++++[m
+ 2 files changed, 101 insertions(+), 80 deletions(-)
+
+[33mcommit 9dcf83ee760201febe3398af369352407b02d88d[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Thu Aug 21 12:30:45 2025 +0200
+
+    Added React Flow integration and updated About Me sketches
+
+ package-lock.json  | 534 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ package.json       |   3 [32m+[m[31m-[m
+ src/SkillsFlow.jsx | 103 [32m+++++++++++[m
+ src/about.jsx      |   5 [32m+[m[31m-[m
+ 4 files changed, 640 insertions(+), 5 deletions(-)
+
+[33mcommit 8dae525c1014e097d0114a6a9b221fb44380f907[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Wed Aug 20 22:35:55 2025 +0200
+
+    Worked further on About Me page, added content and sketches/plans for next steps
+
+ package-lock.json | 77 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++[m[31m-[m
+ package.json      |  4 [32m++[m[31m-[m
+ src/about.css     | 18 [32m+++++++++++++[m
+ src/about.jsx     | 19 [32m+++++++++++[m[31m---[m
+ 4 files changed, 113 insertions(+), 5 deletions(-)
+
+[33mcommit 32bde5ec1d30bdf3982c9db33bfa9f353a5700d1[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Tue Aug 19 20:34:26 2025 +0200
+
+    Cleaned and improved About Me page structure and content
+
+ src/about.css  |  63 [32m++++++++[m[31m-------------------------[m
+ src/about.jsx  | 110 [32m++++++++++++++++++++++[m[31m-----------------------------------[m
+ src/about2.jsx | 106 [32m++++++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 3 files changed, 163 insertions(+), 116 deletions(-)
+
+[33mcommit 6451644a51a2a7bbf3233a14ec26c7bb96c44109[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Mon Aug 18 22:18:38 2025 +0200
+
+    Work in progress: About Me page started, needs cleanup
+
+ src/about.css | 26 [32m+++++++++++++++++++++++++[m[31m-[m
+ src/about.jsx | 28 [32m+++++++++++++++++++++++++++[m[31m-[m
+ src/home.jsx  |  3 [32m++[m[31m-[m
+ 3 files changed, 54 insertions(+), 3 deletions(-)
+
+[33mcommit 9339bd853816382c235768903b0ef434ca3ff9cf[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Sun Aug 17 20:43:02 2025 +0200
+
+    Fix: add proper README content
+
+ README.md | 25 [32m+++++++++++++++++++++++++[m
+ 1 file changed, 25 insertions(+)
+
+[33mcommit b0b1a50247b91056c5eeb2cceaea60bf1c664005[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Sun Aug 17 20:40:04 2025 +0200
+
+    I just added a proper Read me
+
+ README.md | 12 [31m------------[m
+ 1 file changed, 12 deletions(-)
+
+[33mcommit f47c1637c127b27a5cacd56d72520db026b108f5[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Sun Aug 17 20:23:45 2025 +0200
+
+    Complete Home Page layout and design
+
+ src/home.jsx  | 27 [32m+++++[m[31m----------------------[m
+ src/home2.jsx | 45 [32m+++++++++++++++++++++++++++++++++++++++++++++[m
+ src/index.css | 29 [32m++++++++++++++++++++++[m[31m-------[m
+ 3 files changed, 72 insertions(+), 29 deletions(-)
+
+[33mcommit 9731ecc2cd5af4abe3d0dae667bdaef9cd01d3f9[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Sun Aug 17 19:20:06 2025 +0200
+
+    The Footer is done for all pages
+
+ package-lock.json | 14 [32m++++++++++++++[m
+ package.json      |  1 [32m+[m
+ src/footer.css    | 43 [32m+++++++++++++++++++++++++++++++++++++++++[m[31m--[m
+ src/footer.jsx    | 32 [32m++++++++++++++++++++++++++[m[31m------[m
+ vite.config.js    |  5 [32m++++[m[31m-[m
+ 5 files changed, 86 insertions(+), 9 deletions(-)
+
+[33mcommit 5e34c087146c6e9da0f2ea2c9122bc318416304e[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Sat Aug 16 21:13:46 2025 +0200
+
+    Update footer section with improvements
+
+ myweb/.gitignore             |    23 [32m+[m
+ myweb/README.md              |    70 [32m+[m
+ myweb/package-lock.json      | 17534 [32m+++++++++++++++++++++++++++++++++++++++++[m
+ myweb/package.json           |    39 [32m+[m
+ myweb/public/favicon.ico     |   Bin [31m0[m -> [32m3870[m bytes
+ myweb/public/index.html      |    43 [32m+[m
+ myweb/public/manifest.json   |    25 [32m+[m
+ myweb/public/robots.txt      |     3 [32m+[m
+ myweb/src/App.css            |    38 [32m+[m
+ myweb/src/App.js             |    25 [32m+[m
+ myweb/src/App.test.js        |     8 [32m+[m
+ myweb/src/index.css          |    13 [32m+[m
+ myweb/src/index.js           |    17 [32m+[m
+ myweb/src/logo.svg           |     1 [32m+[m
+ myweb/src/reportWebVitals.js |    13 [32m+[m
+ myweb/src/setupTests.js      |     5 [32m+[m
+ package-lock.json            |    10 [32m+[m
+ package.json                 |     1 [32m+[m
+ src/footer.css               |    10 [32m+[m
+ src/footer.jsx               |    21 [32m+[m
+ src/home.jsx                 |    62 [32m+[m[31m-[m
+ src/index.css                |     4 [32m+[m[31m-[m
+ 22 files changed, 17931 insertions(+), 34 deletions(-)
+
+[33mcommit b60f3c0eff08252edbfbd985b49c6c7b2b4495c1[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Fri Aug 15 20:23:24 2025 +0200
+
+    Update website: polished layout, hero section, and About Me page
+
+ src/about.jsx |  2 [32m+[m[31m-[m
+ src/home.jsx  |  8 [32m++++[m[31m--[m
+ src/index.css | 91 [32m++++++++++++++++++++++++++++++++++++++++++[m[31m-----------------[m
+ 3 files changed, 71 insertions(+), 30 deletions(-)
+
+[33mcommit 215fac0001351902d1fc32890e1837eac08e28bc[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Thu Aug 14 12:52:59 2025 +0200
+
+    Updated About page and added hero section
+
+ src/App.jsx   |   4 [32m+[m[31m-[m
+ src/about.css |  43 [32m++++++++++++++++++++[m
+ src/about.jsx |  72 [32m+++++++++++++++++++++++++++++++[m[31m-[m
+ src/home.jsx  |  10 [32m+++[m[31m--[m
+ src/index.css | 129 [32m++++++++++++++++++++++++++++++++++++++++++[m[31m----------------[m
+ 5 files changed, 217 insertions(+), 41 deletions(-)
+
+[33mcommit a6853222ae479cf24d292e97ef9fbd95c5233441[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Wed Aug 13 13:17:36 2025 +0200
+
+    Update About Me page with diploma, bio, and tech icons
+
+ src/about.css | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+[33mcommit bfa2f2015590a0a3820e3f4f49223815d3124d7a[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Tue Aug 12 13:18:26 2025 +0200
+
+    Improved text readability and updated styles
+
+ src/App.css      |  3 [32m++[m
+ src/App.jsx      |  2 [32m+[m[31m-[m
+ src/footer.jsx   |  3 [32m+[m[31m-[m
+ src/home.jsx     | 35 [32m+++++++++++++++++[m[31m----[m
+ src/home_des.jsx | 17 [31m----------[m
+ src/index.css    | 95 [32m+++++++++++++++++++++++++++++++++++++++++++++++++++++[m[31m---[m
+ 6 files changed, 126 insertions(+), 29 deletions(-)
+
+[33mcommit 76fa915eeb4394626071a4b8bb5a6bacf986f3b5[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Mon Aug 11 13:36:55 2025 +0200
+
+    Add initial pages and update components for homepage, navigation, and styles
+
+ src/App.jsx       |  49 [32m+++++++++++++++++++++++++++++++++++++++++[m[31m--------[m
+ src/about.jsx     |  10 [32m++++++++++[m
+ src/contact.jsx   |  10 [32m++++++++++[m
+ src/footer.jsx    |  11 [32m+++++++++++[m
+ src/home.jsx      |  16 [32m++++++++++++++++[m
+ src/home_des.jsx  |  17 [32m+++++++++++++++++[m
+ src/index.css     |  13 [32m++++++++++[m[31m---[m
+ src/main.jsx      |   1 [32m+[m
+ src/projects.jsx  |   9 [32m+++++++++[m
+ src/ship.jpeg     | Bin [31m0[m -> [32m7322[m bytes
+ src/web_pages.jsx |  13 [32m++++++++[m[31m-----[m
+ 11 files changed, 133 insertions(+), 16 deletions(-)
+
+[33mcommit 6c631ebba7c81115faa611d2db86470d35b87d50[m
+Merge: 9424bec 3af156d
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Mon Aug 11 09:25:58 2025 +0200
+
+    Merge branch 'main' of https://github.com/MATHMAN7/Blog-Web
+    git push -u origin main
+
+[33mcommit 9424bece39250e3642ee2bb5deaaf3a1d8911ebb[m
+Author: MATHMAN7 <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Mon Aug 11 09:25:18 2025 +0200
+
+    Initial commit: personal website project
+
+ .gitignore           |   24 [32m+[m
+ README.md            |   12 [32m+[m
+ eslint.config.js     |   29 [32m+[m
+ index.html           |   13 [32m+[m
+ package-lock.json    | 2796 [32m++++++++++++++++++++++++++++++++++++++++++++++++++[m
+ package.json         |   27 [32m+[m
+ public/vite.svg      |    1 [32m+[m
+ src/App.css          |    0
+ src/App.jsx          |   15 [32m+[m
+ src/assets/react.svg |    1 [32m+[m
+ src/index.css        |   43 [32m+[m
+ src/main.jsx         |   10 [32m+[m
+ src/web_pages.jsx    |   13 [32m+[m
+ vite.config.js       |    7 [32m+[m
+ 14 files changed, 2991 insertions(+)
+
+[33mcommit 3af156d18b770a7522ea0a24916cd2891653dc63[m
+Author: Loren <159688574+MATHMAN7@users.noreply.github.com>
+Date:   Mon Aug 11 09:20:41 2025 +0200
+
+    Initial commit
+
+ LICENSE | 21 [32m+++++++++++++++++++++[m
+ 1 file changed, 21 insertions(+)
