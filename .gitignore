@@ -26,3 +26,6 @@ dist-ssr
 # what i added
 /src/images/
 /src/config/links.js
+
+src/images2/
+src/images3/
