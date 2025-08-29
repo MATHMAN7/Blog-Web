@@ -2,6 +2,7 @@ import Home from "./home.jsx";
 
 // Images
 import diploma from "./images/Java_diploma.jpg";
+import { useEffect, useRef } from "react";
 
 
 import ship from "./images/ship.jpeg";
@@ -11,6 +12,42 @@ import postgres from "./images/postgresql.png";
 import webstorm from "./images/webstorm.png";
 import sda from "./images/sda.png";
 import download from "./images/download_icon.png";
+import Rea from "./images2/React.png"
+import nodejs from "./images2/nodejs.png";
+import dj from "./images2/dj.png";
+import spring from "./images2/spring.png";
+import pytorch2 from "./images2/pytorch2.png";
+import js from "./images2/js.png";
+import java from "./images2/java.png";
+import python from "./images2/python.png";
+import cplusplus from "./images2/c++.png";
+import full_stack from "./images2/full-stack.png";
+import webdev2 from "./images2/webdev2.png";
+import web_application from "./images2/web_application.png";
+import api from "./images2/api.png";
+import desktop_dev from "./images2/desktop_dev.png";
+import GUI from "./images2/GUI.png";
+import webdev from "./images3/webdev.png";
+import webapp from "./images3/webapp.png";
+import python_automation from "./images3/python_automation.png";
+import webscraping from "./images3/webscraping.png";
+import software_testing from "./images3/software_testing.png";
+import debugging from "./images3/debugging.png";
+import github from "./images3/github.png";
+import LA from "./images3/linear_algebra.png";
+import probability from "./images3/probability.png";
+import optimization from "./images3/optimization.png";
+import calculus from "./images3/calculus.png";
+import geometry from "./images3/geometry.png";
+import analysis from "./images3/analysis.png";
+import vs from "./images3/vs_logo.png";
+import pycharm from "./images3/pycharm-icon.png";
+import datagrip from "./images3/DataGrip.png";
+import inteli from "./images3/inteli_logo.png";
+import clion from "./images3/CLion.png";
+import exel  from "./images3/exel_logo.png";
+import word_ from "./images3/word_logo.png";
+import orson2 from "./images/osoni2.png";
 
 // PDFs
 import CV from "./images/CV-Orson.pdf";
@@ -27,12 +64,51 @@ import { HexGrid, Layout, Hexagon, Text } from "react-hexgrid";
 
 function About(){
 
+
+    const bigBoxRef = useRef(null);
+    const smallBoxRef = useRef(null);
+
+    const bigBoxRef2 = useRef(null);
+    const smallBoxRef2 = useRef(null);
+
+
+    useEffect(() => {
+        if (bigBoxRef.current && smallBoxRef.current) {
+            const bigWidth = bigBoxRef.current.offsetWidth;
+            smallBoxRef.current.style.width = `${bigWidth}px`;
+        }
+
+        if (bigBoxRef2.current && smallBoxRef2.current) {
+            const bigWidth = bigBoxRef2.current.offsetWidth;
+            smallBoxRef2.current.style.width = `${bigWidth}px`;
+        }
+
+    }, []);
+
     return(
         <div>
 
             <div className="Head">
-                <h1>About Me</h1>
+                <h1>So What About Me?</h1>
             </div>
+
+
+
+            <div className="bio">
+            <img src={orson2}/>
+
+                <div className="biotext">
+                    <h1>I am glad you asked!</h1>
+                    <p>
+
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div className="education"> <h1>Education and courses!!!</h1> </div>
+
             <div className="BIGeducation" >
                 <div className="Belinda">
 
@@ -94,7 +170,7 @@ function About(){
 
                     <h1>SKILLS AND TOOLS</h1>
 
-                    <p1>Here you will find Skills and Technologies i have work with most.
+                    <p1>Here you will find Skills and Technologies I have worked with most.
                         From programing languages,frameworks, IDEs i prefer to expand in skill and tools.
                         I constantly explore new tools to improve my work.</p1>
 
@@ -102,37 +178,54 @@ function About(){
 
                 <div className="row2">
 
-                    <div className="frameworks skills-box">
-                        <h2>Frameworks</h2>
+                    <div ref={bigBoxRef} className="frameworks skills-box">
+                        <div><h2>Frameworks</h2></div>
 
+
+
+                        <div className="skills-box-row">
                         <div className="skill-card">
-                            <img src="" alt="React"/>
+                            <img src={Rea} alt="React"/>
                             <p>React</p>
                         </div>
                         <div className="skill-card">
-                            <img src="" alt="Node.js"/>
+                            <img src={nodejs} alt="Node.js"/>
                             <p>Node.js</p>
                         </div>
                         <div className="skill-card">
-                            <img src="" alt="Django"/>
+                            <img src={dj} alt="Django"/>
                             <p>Django</p>
                         </div>
+                        </div>
+
+
+                        <div className="skills-box-row">
                         <div className="skill-card">
-                            <img src="" alt="Spring"/>
+                            <img src={spring} alt="Spring"/>
                             <p>Spring</p>
                         </div>
                         <div className="skill-card">
-                            <img src="" alt="PyTorch"/>
+                            <img src={pytorch2} alt="PyTorch"/>
                             <p>PyTorch</p>
+                        </div>
                         </div>
                     </div>
 
-                    <div className="languages skills-box">
-                        <h2>⚡ Programming Languages</h2>
-                        <div className="skill-card"><img src="" alt="JavaScript"/>  <p>JavaScript</p></div>
-                        <div className="skill-card"><img src="" alt="C++"/>         <p>C++</p></div>
-                        <div className="skill-card"><img src="" alt="Python"/>      <p>Python</p></div>
-                        <div className="skill-card"><img src="" alt="Java"/>        <p>Java</p></div>
+
+
+
+
+
+                    <div ref={smallBoxRef} className="languages skills-box">
+                        <div><h2>⚡ Programming Languages</h2></div>
+                        <div className="skills-box-row">
+                        <div className="skill-card"><img src={js} alt="JavaScript"/>  <p>JavaScript</p></div>
+                        <div className="skill-card"><img src={cplusplus} alt="C++"/>         <p>C++</p></div>
+                        </div>
+
+                        <div className="skills-box-row">
+                        <div className="skill-card"><img src={python} alt="Python"/>      <p>Python</p></div>
+                        <div className="skill-card"><img src={java} alt="Java"/>        <p>Java</p></div></div>
                     </div>
 
 
@@ -145,26 +238,40 @@ function About(){
 
 
                     <div className="expertise skills-box">
-                        <h2>📈 Expertise</h2>
-                        <div className="skill-card">    <p>Full-Stack Development</p></div>
-                        <div className="skill-card">    <p>Web Development</p></div>
-                        <div className="skill-card">    <p>Web Applications</p></div>
-                        <div className="skill-card">    <p>API Integration</p></div>
-                        <div className="skill-card">    <p>Desktop Applications</p></div>
-                        <div className="skill-card">    <p>GUI</p></div>
+                        <div><h2>📈 Expertise</h2></div>
+
+                        <div className="skills-box-row">
+                        <div className="skill-card"> <img src={full_stack}/>   <p>Full-Stack Development</p></div>
+                        <div className="skill-card">   <img src={webdev2}/> <p>Web Development</p></div>
+                        <div className="skill-card">   <img src={web_application}/> <p>Web Applications</p></div>
+                        </div>
+
+                        <div className="skills-box-row">
+                        <div className="skill-card"> <img src={api}/>    <p>API Integration</p></div>
+                        <div className="skill-card">   <img src={desktop_dev}/> <p>Desktop Applications</p></div>
+                        <div className="skill-card">    <img src={GUI}/> <p>GUI</p></div>
+                        </div>
                     </div>
 
 
 
 
                     <div className="freelance skills-box">
-                        <div className="skill-card"><p>Web Development</p></div>
-                        <div className="skill-card"><p>Web Application Development</p></div>
-                        <div className="skill-card"><p>Python Automation</p></div>
-                        <div className="skill-card"><p>Web Scraping</p></div>
-                        <div className="skill-card"><p>Software Testing</p></div>
-                        <div className="skill-card"><p>Bug Fixes & Debugging</p></div>
-                        <div className="skill-card"><p>General Support</p></div>
+                       <div> <h2>Freelance Services</h2></div>
+
+                        <div className="skills-box-row">
+                        <div className="skill-card"> <img src={webdev}/>  <p>Web Development</p></div>
+                        <div className="skill-card">  <img src={webapp}/> <p>Web Application Development</p></div>
+                        <div className="skill-card">  <img src={python_automation}/><p>Python Automation</p></div>
+                        </div>
+
+                        <div className="skills-box-row">
+                        <div className="skill-card"> <img src={webscraping}/> <p>Web Scraping</p></div>
+                        <div className="skill-card"> <img src={software_testing}/> <p>Software Testing</p></div>
+                        <div className="skill-card"> <img src={debugging}/> <p>Bug Fixes & Debugging</p></div>
+                        </div>
+
+
 
 
                 </div>
@@ -174,16 +281,26 @@ function About(){
 
 
                 </div>
-                <div className="row4">
-                    <div className="tools skills-box">
+                <div  className="row4">
+                    <div ref={bigBoxRef2} className="tools skills-box">
                         <h2>🛠️ Tools</h2>
-                        <div className="skill-card"><img src="" alt="Git"/><p>Git</p></div>
-                        <div className="skill-card">   <p>GitHub</p></div>
+                        <div className="skills-box-row">
+                        <div className="skill-card"><img src={git} alt="Git"/><p>Git</p></div>
+                        <div className="skill-card"> <img src={github}/>  <p>GitHub</p></div>
+                        </div>
                     </div>
-                    <div className="database skills-box">
+                    <div ref={smallBoxRef2} className="database skills-box">
                         <h2>🗄️ Databases</h2>
-                        <div className="skill-card"><img src="" alt="PostgreSQL"/><p>PostgreSQL</p></div>
+                        <div className="skill-card"><img src={postgres} alt="PostgreSQL"/><p>PostgreSQL</p></div>
 
+                    </div>
+
+                    <div  className="productivity skills-box">
+                        <h2>Productivity</h2>
+                        <div className="skills-box-row">
+                            <div className="skill-card"><img src={word_}/><p>MS Word</p></div>
+                            <div className="skill-card"><img src={exel}/> <p>MS Excel</p></div>
+                        </div>
                     </div>
 
                 </div>
@@ -191,32 +308,39 @@ function About(){
 
 
                     <div className="math skills-box">
-                        <h2>Mathematical Skills</h2>
-                        <div className="skill-card"><p>Linear Algebra</p></div>
-                        <div className="skill-card"><p>Probability and Statistics</p></div>
-                        <div className="skill-card"><p>Optimization</p></div>
-                        <div className="skill-card"><p>Calculus (Integral & Differential)</p></div>
-                        <div className="skill-card"><p>Vector Calculus</p></div>
-                        <div className="skill-card"><p>Analytical Geometry</p></div>
-                        <div className="skill-card"><p>Real and Complex Analysis</p></div>
+                        <div><h2>Mathematical Skills</h2></div>
+
+                        <div className='skills-box-row'>
+                        <div className="skill-card"><img src={LA}/><p>Linear Algebra</p></div>
+                        <div className="skill-card"><img src={probability}/><p>Probability and Statistics</p></div>
+                        <div className="skill-card"><img src={optimization}/><p>Optimization</p></div>
+                        </div>
+
+
+                        <div className="skills-box-row">
+                        <div className="skill-card"><img src={calculus}/><p>Calculus (Integral & Differential)</p></div>
+                        <div className="skill-card"><img src={geometry}/><p>Analytical Geometry</p></div>
+                        <div className="skill-card"><img src={analysis}/><p>Real and Complex Analysis</p></div>
+                        </div>
                     </div>
 
                     <div className="IDE skills-box">
-                        <div className="skill-card"><img src="" alt="PyCharm"/><p>PyCharm</p></div>
-                        <div className="skill-card"><p>VS Code</p></div>
-                        <div className="skill-card"><p>IntelliJ IDEA</p></div>
-                        <div className="skill-card"><p>CLion</p></div>
-                        <div className="skill-card"><p>DataGrip</p></div>
-                        <div className="skill-card"><img src="" alt="WebStorm"/><p>WebStorm</p></div>
+                        <div><h2>Tools and IDE</h2></div>
+
+                        <div className="skills-box-row">
+                        <div className="skill-card"><img src={pycharm} alt="PyCharm"/><p>PyCharm</p></div>
+                        <div className="skill-card"><img src={vs}/> <p>VS Code</p></div>
+                        <div className="skill-card"><img src={inteli}/> <p>IntelliJ IDEA</p></div>
+                        </div>
+
+                        <div className="skills-box-row">
+                        <div className="skill-card"><img src={clion}/> <p>CLion</p></div>
+                        <div className="skill-card"><img src={datagrip}/> <p>DataGrip</p></div>
+                        <div className="skill-card"><img src={webstorm} alt="WebStorm"/><p>WebStorm</p></div>
+                        </div>
                     </div>
                 </div>
-                <div className="row6">
-                    <div className="productivity skills-box">
-                        <h2>Productivity</h2>
-                        <div className="skill-card"><p>MS Word</p></div>
-                        <div className="skill-card"><p>MS Excel</p></div>
-                    </div>
-                </div>
+
 
             </div>
 

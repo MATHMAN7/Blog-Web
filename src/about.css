@@ -1,12 +1,50 @@
 .Head{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
     width: 100%;
     min-height: 100px;
-    background-color: #e6e6e6;
+    background-color: #000;
     text-align: center;
     padding-top: 20px;
     font-size: 50px;
     font-weight: bold;
+
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+
+
 }
+.Head h1{
+
+    background: linear-gradient(to left, #ed6905, #fff303);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bio img{
+    max-width: 500px;
+    max-height: 500px;
+    margin: 30px;
+}
+
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 200px;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+.education h1{
+    background: linear-gradient(to left, #ed6905, #fff303);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 70px;
+}
+
 
 .Education{
     width: 100%;
@@ -41,6 +79,10 @@ align-items: center;
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
+
+}
+.BIGeducation p{
+    color: black;
 }
 
 .Belinda2{
@@ -52,138 +94,7 @@ align-items: center;
 }
 
 
-
-
-
-.row2{
-    display: flex;
-    flex-direction: row;
-
-
-    gap: 30px;
-}
-.row3{
-    display: flex;
-    flex-direction: row;
-
-
-    gap: 30px;
-}
-.row4{
-    display: flex;
-    flex-direction: row;
-
-
-    gap: 30px;
-}
-.row5{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
-
-.Skills{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
-
-}
-
-
-.languages{
-    background-color: lightgray;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 200px;
-}
-
-.frameworks{
-    background-color: lightgray;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 200px;
-}
-.database{
-    background-color: lightgray;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 200px;
-}
-.tools{
-    background-color: lightgray;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 200px;
-}
-.IDE{
-    background-color: lightgray;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 200px;
-}
-
-.productivity{
-    background-color: lightgray;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 200px;
-}
-.expertise{
-    background-color: lightgray;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 200px;
-}
-
-.freelance{
-    background-color: lightgray;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 200px;
-
-}
-
-.math{
-    background-color: lightgray;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 200px;
-
-}
-
-.Experiments{
-    background-color: lightgray;
-    padding: 20px;
-    border-radius: 10px;
-    text-align: center;
-    width: 200px;
-}
-
-
-.skills-box{
-
-    margin: 60px;
-
-}
-
-
-
-
-.skills-box:hover {
-    transform: scale(1.15);
-
-
-}
+/*--------------------------------head skills--------------------------------------*/
 
 .sk{
     display: flex;
@@ -227,15 +138,192 @@ align-items: center;
 
     max-width: 85%;
 }
+/*--------------------------------head skills--------------------------------------*/
+
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* centers items horizontally (X-axis) */
+    align-items: center;
+
+
+    gap: 30px;
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+
+
+}
+.row4{
+    display: flex;
+    flex-direction: row;
+
+
+
+}
+.row5{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+
+
+
+/*--------------------------names--------------------------------*/
+
+
+
+.Skills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+
+.languages{
+    display: flex;
+    flex-direction: column;
+
+
+
+    padding: 20px;
+
+    text-align: center;
+
+}
+
+.frameworks{
+
+    padding: 20px;
+    text-align: center;
+    flex:1;
+
+}
+.database{
+
+    padding: 20px;
+    text-align: center;
+
+}
+.tools{
+
+    padding: 20px;
+    text-align: center;
+
+}
+.IDE{
+
+    padding: 20px;
+    text-align: center;
+
+}
+
+.productivity{
+
+    padding: 20px;
+    text-align: center;
+
+}
+.expertise{
+
+    padding: 20px;
+    text-align: center;
+
+}
+
+.freelance{
+
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+.math{
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+
+
+
+/*--------------------------names--------------------------------*/
+
+.skills-box h2,p {
+    color: yellow;
+}
+
+
+.skills-box{
+    align-items: center;
+
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: #272727;
+    border: 5px solid #ffffff;
+
+
+}
+.skills-box-row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.skills-box:hover {
+
+
+
+}
+
+
+
 
 
 /* ---------------------skill-card---------------------------------*/
 
 .skill-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100px;
-    height: 150px;
+    height: 160px;
+    padding: 10px;
+    margin: 10px;
+
+    border: 1px solid rgba(255, 255, 255, 0.1);
+
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.73));
+
+
 }
 
+.skill-card:hover{
+    border-color: #1E90FF; /* glowing blue */
+    box-shadow: 0 0 15px #1E90FF;
+    transform: translateY(-10px) ;
+    background-color: rgba(30, 144, 255, 0.1);
+
+}
+
+.skill-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
 
 
 /* ---------------------skill-card---------------------------------*/
