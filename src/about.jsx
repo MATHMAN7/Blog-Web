@@ -48,12 +48,13 @@ import clion from "./images3/CLion.png";
 import exel  from "./images3/exel_logo.png";
 import word_ from "./images3/word_logo.png";
 import orson2 from "./images/osoni2.png";
+import CVicon from "./images4/cv_icon_teal.png"
+import dipicon from "./images4/icon_teal.png";
 
-// PDFs
-import CV from "./images/CV-Orson.pdf";
 
-// HexGrid (no change)
-import { HexGrid, Layout, Hexagon, Text } from "react-hexgrid";
+
+
+
 
 
 
@@ -100,8 +101,20 @@ function About(){
                 <div className="biotext">
                     <h1>I am glad you asked!</h1>
                     <p>
+                        I am a Computer Science student driven by pragmatism and a desire to move beyond theory.
+                        I want to sharpen real skills, explore technology, and create software that solves meaningful problems
+                        and bring real value to the people I am working with.
+                    </p>
+                    <p>
+
+
+                        I am a hardworking and quiet individual who is easy to work with.
+                        I adapt well to professional environments and value focus and transparency,but I also have room for casual moments.
+                        Outside of work, I enjoy traveling and believe that taking long breaks after periods of intense focus helps me grow faster.
+                        I’m open-minded, can talk about almost anything, and always try to see the best in people
 
                     </p>
+
                 </div>
 
             </div>
@@ -149,17 +162,17 @@ function About(){
 
 
                     <div className="downloads">
-                        <img src={download} style={{ width: "30px", height: "30px", objectFit: "cover" }}/>
-                        <a href="assets/SDA_diploma.pdf"
-                           download="SDA_Diploma.pdf"
-                        >SDA Diploma
+                        <a  href="/CV-Orson.pdf" download="SDA_Diploma.pdf" className="download-btn">
+                            <img src={dipicon} alt="Diploma Icon" />
+                            <span>SDA</span>
                         </a>
 
-                        <a  href="assets/CV-Orson.pdf"
-                            download="CV-Orson.pdf"
-                        >CV
+                        <a href="/SDA_diploma.pdf" download="CV-Orson.pdf" className="download-btn">
+                            <img src={CVicon} alt="CV Icon" />
+                            <span>CV</span>
                         </a>
                     </div>
+
 
                 </div>
             </div>

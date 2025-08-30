@@ -29,3 +29,8 @@ dist-ssr
 
 src/images2/
 src/images3/
+src/images4/
+
+# Ignore personal PDFs
+/public/CV-Orson.pdf
+/public/SDA_diploma.pdf
